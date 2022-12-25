@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Actay';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./actay.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Actay';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./actay-wide.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Actay';
+  font-style: normal;
+  font-weight: 250;
+  src: url(./actay-condensed.woff) format("woff");
+}
