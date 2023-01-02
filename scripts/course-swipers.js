@@ -6,6 +6,24 @@ var swiper = new Swiper(".feedback__swiper-1", {
     nextEl: ".feedback__btn-next-1",
     prevEl: ".feedback__btn-prev-1",
   },
+
+  breakpoints: {
+
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 30
+    },
+
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 35
+    }
+  },
 });
 
 var swiper = new Swiper(".feedback__swiper-2", {
