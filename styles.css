@@ -40,6 +40,7 @@
 
 .header-courses__link:hover {
   opacity: .6;
+  color: #fff;
 }
 
 .header-courses__title {
@@ -119,6 +120,7 @@
 
 .header-courses__menu-link:hover {
   opacity: .6;
+  color: #fff;
 }
 
 .header-courses__grid-block {
@@ -151,6 +153,7 @@
 
 .header-courses__btn:hover {
   opacity: .6;
+  color: #000;
 }
 
 .achievements {
@@ -299,6 +302,7 @@
 
 .advantages__link:hover {
   opacity: .7;
+  color: #000;
 }
 
 .advantages__img-container {
@@ -413,6 +417,7 @@
 
 .course__link:hover {
   opacity: .7;
+  color: #fff;
 }
 
 .course__column_2 {
@@ -586,6 +591,7 @@
 
 .feedback__student-link:hover {
   opacity: .6;
+  color: #fff;
 }
 
 .feedback__swiper-2 {
@@ -678,6 +684,7 @@
 
 .feedback__link-main:hover {
   opacity: .7;
+  color: #000;
 }
 
 /* Main page */
