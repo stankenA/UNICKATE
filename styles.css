@@ -700,6 +700,10 @@
 .feedback__work-photo {
   margin: 6px auto 20px;
   width: 96%;
+  height: 266px;
+  object-fit: cover;
+  object-position: top;
+  cursor: pointer;
 }
 
 .feedback__instagram {
@@ -806,6 +810,12 @@
   color: #000000;
   text-decoration: none;
   margin: 7px 0 46px;
+  transition: all .4s ease;
+}
+
+.feedback__user-inst:hover {
+  color: #000;
+  opacity: .6;
 }
 
 .feedback__txt {
@@ -1442,18 +1452,6 @@
   position: relative;
 }
 
-.prices__wrapper::after {
-  position: absolute;
-  content: '';
-  width: 100%;
-  bottom: 0;
-  height: 25px;
-  z-index: 3;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(7.81%, #00060638), color-stop(71.35%, rgba(12, 13, 17, 0.41)), to(rgba(12, 13, 17, 0)));
-  background: -o-linear-gradient(bottom, #00060638 7.81%, rgba(12, 13, 17, 0.41) 71.35%, rgba(12, 13, 17, 0) 100%);
-  background: linear-gradient(0deg, #00060638 7.81%, rgba(12, 13, 17, 0.41) 71.35%, rgba(12, 13, 17, 0) 100%);
-}
-
 .prices__list {
   padding: 0 0 16px;
   margin: 0;
@@ -1470,7 +1468,18 @@
 }
 
 .prices__list::-webkit-scrollbar {
-  display: none;
+  width: 2px;
+}
+
+.prices__list::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.09);
+  width: 150px;
+}
+
+.prices__list::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.27);
 }
 
 .prices__list-item {
@@ -1647,10 +1656,18 @@
   background-color: #060606;
 }
 
+.contacts_white {
+  background-color: #fff;
+}
+
 .contacts__wrapper {
   position: relative;
   background: url(./images/contacts__background-1.png) no-repeat bottom 85% left -48%,
     url(./images/contacts__background-2.png) no-repeat bottom 91% right -60%;
+}
+
+.contacts__wrapper_white {
+  background: none;
 }
 
 .contacts__content {
@@ -1663,6 +1680,14 @@
   font-size: 64px;
   line-height: 78px;
   margin: 0 0 43px;
+}
+
+.contacts__title_white {
+  color: #000;
+  padding-top: 60px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
 }
 
 .contacts__container {
@@ -1723,6 +1748,10 @@
   margin: 0;
 }
 
+.contacts__link-txt_white {
+  color: #000;
+}
+
 .contacts__background-1 {
   position: absolute;
   bottom: 0;
@@ -1770,6 +1799,8 @@
 
 .popup__image {
   display: block;
+  max-width: 75vw;
+  max-height: 75vh;
 }
 
 .popup__close-button {
@@ -1867,6 +1898,10 @@
 
   .feedback__btn-prev-2 {
     left: 2%;
+  }
+
+  .feedback__work-photo {
+    height: 205px;
   }
 
   .advantages__img-container {
@@ -2963,6 +2998,7 @@
 
   .feedback__work-photo {
     margin-bottom: 20px;
+    height: 234px;
   }
 
   .feedback__instagram {

@@ -2,19 +2,22 @@
   font-family: 'Actay';
   font-style: normal;
   font-weight: 400;
-  src: url(./actay.woff) format("woff");
+  src: url(./actay.woff2) format("woff2"),
+    url(./actay.woff) format("woff");
 }
 
 @font-face {
   font-family: 'Actay';
   font-style: normal;
   font-weight: 700;
-  src: url(./actay-wide.woff) format("woff");
+  src: url(./actay-wide.woff2) format("woff2"),
+    url(./actay-wide.woff) format("woff");
 }
 
 @font-face {
   font-family: 'Actay';
   font-style: normal;
   font-weight: 250;
-  src: url(./actay-condensed.woff) format("woff");
+  src: url(./actay-condensed.woff2) format("woff2"),
+    url(./actay-condensed.woff) format("woff");
 }
